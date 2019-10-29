@@ -1,0 +1,143 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: right;
+}
+
+footer{
+    vertical-align: bottom;
+}
+
+.search_bar{
+    height: 40px;
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.search_buttons{
+    text-align: center;    
+    margin: 10px auto;
+    width: 700px;
+}
+
+#recherche_google{
+    color: rgb(242, 242, 242);
+    background-color: rgb(26, 115, 232);
+    height: 36px;
+    width: auto;
+    border: 0px;
+    border-radius: 4px;
+    padding-left:24px;
+    padding-right:24px;
+    font-size: 14px;
+}
+
+#recherche_chance{
+    color: rgb(26, 115, 232);
+    background-color: rgb(255, 255, 255);
+    height: 36px;
+    width: auto;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 4px;
+    padding-left:24px;
+    padding-right:24px;
+    font-size: 14px;
+}
+
+#valeur_recherche{
+    height: 40px;
+    width: 500px;
+    border: 0px;
+    padding: 0px;
+}
+
+.logo{
+    text-align: center;
+    margin: 10px auto;
+}
+
+#search_bar_logo{
+    background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x:-132px;
+    background-position-y:-38px;
+    background-size:528px 68px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    height:30px;
+    line-height:normal;
+    opacity:0.55;
+    outline-color:rgb(0, 0, 0);
+    outline-style:none;
+    outline-width:0px;
+    text-align:left;
+    text-decoration-color:rgb(0, 0, 0);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    user-select:none;
+    vertical-align:middle;
+    white-space:nowrap;
+    width:30px;
+}
+
+#search_bar_vocal{
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:rgba(0, 0, 0, 0);
+    background-image:url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-origin:padding-box;
+    background-position-x:0px;
+    background-position-y:0px;
+    background-size:24px;
+    color:rgb(34, 34, 34);
+    cursor:pointer;
+    display:block;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    height:24px;
+    line-height:44px;
+    width: 24px;
+}
+
+#application_google{
+    background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x:-132px;
+    background-position-y:-38px;
+    background-size:528px 68px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    height:30px;
+    line-height:normal;
+    opacity:0.55;
+    outline-color:rgb(0, 0, 0);
+    outline-style:none;
+    outline-width:0px;
+    text-align:left;
+    text-decoration-color:rgb(0, 0, 0);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    user-select:none;
+    vertical-align:middle;
+    white-space:nowrap;
+    width:30px;
+}
