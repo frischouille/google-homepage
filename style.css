@@ -7,7 +7,11 @@ header{
 }
 
 footer{
-    vertical-align: bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
 }
 
 .search_bar{
@@ -140,4 +144,42 @@ footer{
     vertical-align:middle;
     white-space:nowrap;
     width:30px;
+}
+
+.country, .navbar_footer{
+    border-top-color: rgb(232, 232, 232);
+    border-top-width: 1px;
+    border-top-style: solid;
+    height: 41px;
+}
+
+.country{
+    color: rgba(0, 0, 0, 0.54);
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    padding-left: 27px;
+}
+
+.navbar_footer{
+    color:rgb(95, 99, 104);
+    cursor:pointer;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    padding-left: 27px;    
+}
+
+.navbar_footer a{
+    text-decoration-color:rgb(95, 99, 104);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    color: #5f6368;
+}
+
+.navbar_footer a:hover{
+    text-decoration-line: underline;
+}
+
+.nfr{
+    float: right;
 }
