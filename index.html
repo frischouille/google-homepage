@@ -9,32 +9,27 @@
     <body>
         <header>
             <div class="navbar">
-                <a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
-                <a href="https://www.google.ch/imghp?hl=fr&tab=wi&ogbl">Images</a>
-                <a id="application_google" href="https://www.google.ch/intl/fr/about/products?tab=wh"></a>
+                <a id="gmail" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+                <a id="pictures" href="https://www.google.ch/imghp?hl=fr&tab=wi&ogbl">Images</a>
+                <a id="application_google" title="Applications Google" role="button" href="https://www.google.ch/intl/fr/about/products?tab=wh"></a>
+                <div class="accountgoogle"><a id="account" role="button" title="Compte Google Alex Smith (smith.alex@gmail.com)" href="https://accounts.google.com/SignOutOptions?hl=fr&continue=https://www.google.com/"></a></div>
             </div>
         </header>
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </div>
-        <div class="search_bar">
-            <div class="search_bar_logo">
-                <span></span>
+        <div class="content">
+            <div class="logo">
+                <img id="logoimg" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
-            <div class="search_bar_form">
-                <form action="">
-                    <input id="valeur_recherche" type="text" name="search_request">
+            <div class="search_bar">
+                <span class="search_bar_logo"></span>
+                <input id="valeur_recherche" type="text">
+                <span class="search_bar_vocal"></span>
+            </div>
+            <div class="search_buttons">
+                <form action="" method="get">
+                    <input id="recherche_google" type="submit" value="Recherche Google">
+                    <input id="recherche_chance" type="submit" value="J'ai de la chance">
                 </form>
             </div>
-            <div class="search_bar_vocal">
-
-            </div>
-        </div>
-        <div class="search_buttons">
-            <form action="" method="get">
-                <input id="recherche_google" type="submit" value="Recherche Google">
-                <input id="recherche_chance" type="submit" value="J'ai de la chance">
-            </form>
         </div>
         <footer>
             <div class="country">
